@@ -1,4 +1,4 @@
-name: Create Scratch Org and retrieve Metadata settings
+name: Create Scratch Org and retrieve Metadata
 
 on:
   workflow_dispatch:
@@ -22,12 +22,13 @@ jobs:
           npx sfdx auth:sfdxurl:store -d -a devhub -f /dev/stdin <<< "${SFDX_AUTH_URL_DEVHUB}"
           npx sfdx force:org:create -f config/project-scratch-def.json -a scratch-org-shape -s
           rm -rf force-app/main
-          npx sfdx force:source:retrieve -m Settings
+          npx sfdx force:source:manifest:create --fromorg scratch-org-shape
+          npx sfdx force:source:retrieve -x package.xml
       - name: Create Pull Request
         uses: stefanzweifel/git-auto-commit-action@v4
         with:
           file_pattern: force-app
-          commit_message: "feat: retrieve settings from Scratch Org"
+          commit_message: "feat: retrieve Metadata from Scratch Org"
       - name: Delete scratch org
         if: always()
         run: |

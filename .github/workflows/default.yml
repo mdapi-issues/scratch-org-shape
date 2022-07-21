@@ -27,9 +27,9 @@ jobs:
         with:
           add-paths: |
             force-app
-          commit-message: "feat: export settings from Scratch Org"
-          title: "feat: export settings from Scratch Org"
-          branch: ${{ github.ref_name }}
+          commit-message: "feat: retrieve settings from Scratch Org"
+          title: "feat: retrieve settings from Scratch Org"
+          branch: "${{ github.ref_name }}-retrieve"
       - name: Delete scratch org
         if: always()
         run: |

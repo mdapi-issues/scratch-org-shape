@@ -1,0 +1,20 @@
+{
+  "name": "@mdapi-issues/scratch-org-shape",
+  "description": "comparison of different scratch org shapes",
+  "private": true,
+  "version": "0.0.0-development",
+  "author": "Matthias Rolke @amtrack",
+  "devDependencies": {
+    "sfdx-cli": "7.160.0"
+  },
+  "engines": {
+    "node": ">=16.0.0"
+  },
+  "keywords": [
+    "salesforce",
+    "mdapi-issue",
+    "minimum-working-example",
+    "MWE"
+  ],
+  "license": "MIT"
+}

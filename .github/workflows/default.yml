@@ -1,0 +1,34 @@
+name: Create Scratch Org and retrieve Metadata settings
+
+on:
+  workflow_dispatch:
+
+jobs:
+  default:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v3
+        with:
+          fetch-depth: 0
+      - uses: actions/setup-node@v3
+        with:
+          node-version: 16
+      - name: Install dependencies
+        run: yarn
+      - name: Retrieve from Scratch Org
+        env:
+          SFDX_AUTH_URL_DEVHUB: ${{ secrets.SFDX_AUTH_URL_DEVHUB }}
+        run: |
+          npx sfdx auth:sfdxurl:store -d -a devhub -f /dev/stdin <<< "${SFDX_AUTH_URL_DEVHUB}"
+          npx sfdx force:org:create -f config/project-scratch-def.json -a scratch-org-shape -s
+          rm -rf force-app/main
+          npx sfdx force:source:retrieve -m Settings
+      - name: Create Pull Request
+        uses: stefanzweifel/git-auto-commit-action@v4
+        with:
+          file_pattern: force-app
+          commit_message: "feat: retrieve settings from Scratch Org"
+      - name: Delete scratch org
+        if: always()
+        run: |
+          npx sfdx force:org:delete -p

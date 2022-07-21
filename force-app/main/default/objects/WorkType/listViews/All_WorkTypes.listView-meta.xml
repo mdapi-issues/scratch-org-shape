@@ -2,5 +2,5 @@
 <ListView xmlns="http://soap.sforce.com/2006/04/metadata">
     <fullName>All_WorkTypes</fullName>
     <filterScope>Everything</filterScope>
-    <label>All Work Types</label>
+    <label>All Work Type</label>
 </ListView>

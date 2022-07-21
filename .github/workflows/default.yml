@@ -19,7 +19,7 @@ jobs:
         env:
           SFDX_AUTH_URL_DEVHUB: ${{ secrets.SFDX_AUTH_URL_DEVHUB }}
         run: |
-          npx sfdx auth:sfdxurl:store -d -a devhub -f /dev/stdin < <(echo "${SFDX_AUTH_URL_DEVHUB}")
+          npx sfdx auth:sfdxurl:store -d -a devhub -f /dev/stdin <<< "${SFDX_AUTH_URL_DEVHUB}"
           npx sfdx force:org:create -f config/project-scratch-def.json -a scratch-org-shape -s
           npx sfdx force:source:retrieve -m Settings
       - name: Create Pull Request

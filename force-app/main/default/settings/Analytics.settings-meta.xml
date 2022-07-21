@@ -13,7 +13,7 @@
     <enableAnalyticsSharingEnable>true</enableAnalyticsSharingEnable>
     <enableAutoCompleteCombo>true</enableAutoCompleteCombo>
     <enableAzureDLGen2OutputConnector>false</enableAzureDLGen2OutputConnector>
-    <enableCreateLegacyDataflows>false</enableCreateLegacyDataflows>
+    <enableCreateLegacyDataflows>true</enableCreateLegacyDataflows>
     <enableDashboardComponentSnapshot>false</enableDashboardComponentSnapshot>
     <enableDashboardFlexiTable>true</enableDashboardFlexiTable>
     <enableEmailReportsToPortalUsers>false</enableEmailReportsToPortalUsers>
@@ -32,7 +32,7 @@
     <enableRemoveFooterForRepDisplay>false</enableRemoveFooterForRepDisplay>
     <enableRemoveFooterFromRepExp>false</enableRemoveFooterFromRepExp>
     <enableReportHideXlsExportPref>false</enableReportHideXlsExportPref>
-    <enableReportInlineEditPref>false</enableReportInlineEditPref>
+    <enableReportInlineEditPref>true</enableReportInlineEditPref>
     <enableReportNotificationsEnable>true</enableReportNotificationsEnable>
     <enableRequestPrioritySchdl>false</enableRequestPrioritySchdl>
     <enableS1AnalyticsEclairEnable>true</enableS1AnalyticsEclairEnable>

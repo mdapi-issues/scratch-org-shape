@@ -5,7 +5,7 @@
   "version": "0.0.0-development",
   "author": "Matthias Rolke @amtrack",
   "devDependencies": {
-    "sfdx-cli": "7.160.0"
+    "sfdx-cli": "7.169.1"
   },
   "engines": {
     "node": ">=16.0.0"

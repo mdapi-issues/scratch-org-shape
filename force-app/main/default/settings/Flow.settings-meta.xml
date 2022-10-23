@@ -10,7 +10,7 @@
     <enableFlowFieldFilterEnabled>true</enableFlowFieldFilterEnabled>
     <enableFlowFormulasFixEnabled>true</enableFlowFormulasFixEnabled>
     <enableFlowInterviewSharingEnabled>true</enableFlowInterviewSharingEnabled>
-    <enableFlowNullPreviousValueFix>false</enableFlowNullPreviousValueFix>
+    <enableFlowNullPreviousValueFix>true</enableFlowNullPreviousValueFix>
     <enableFlowPauseEnabled>false</enableFlowPauseEnabled>
     <enableFlowUseApexExceptionEmail>false</enableFlowUseApexExceptionEmail>
     <enableFlowViaRestUsesUserCtxt>false</enableFlowViaRestUsesUserCtxt>
@@ -19,6 +19,7 @@
     <isApexPluginAccessModifierRespected>true</isApexPluginAccessModifierRespected>
     <isEnhancedFlowListViewVisible>true</isEnhancedFlowListViewVisible>
     <isFlowApexContextRetired>true</isFlowApexContextRetired>
+    <isFlowBlockAccessToSessionIDEnabled>true</isFlowBlockAccessToSessionIDEnabled>
     <isManageFlowRequiredForAutomationCharts>false</isManageFlowRequiredForAutomationCharts>
     <isTimeResumedInSameRunContext>true</isTimeResumedInSameRunContext>
 </FlowSettings>

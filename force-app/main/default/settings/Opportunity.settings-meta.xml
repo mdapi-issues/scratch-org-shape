@@ -10,4 +10,7 @@
     <oppAmountDealMotionEnabled>true</oppAmountDealMotionEnabled>
     <oppCloseDateDealMotionEnabled>true</oppCloseDateDealMotionEnabled>
     <promptToAddProducts>false</promptToAddProducts>
+    <pushCountEnabled>true</pushCountEnabled>
+    <simpleOppCreateFromContact>true</simpleOppCreateFromContact>
+    <simpleOppCreateFromEvent>true</simpleOppCreateFromEvent>
 </OpportunitySettings>

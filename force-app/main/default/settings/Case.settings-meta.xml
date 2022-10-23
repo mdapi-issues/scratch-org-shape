@@ -9,9 +9,9 @@
     <caseMergeInLightning>false</caseMergeInLightning>
     <closeCaseThroughStatusChange>false</closeCaseThroughStatusChange>
     <defaultCaseFeedLayoutOn>true</defaultCaseFeedLayoutOn>
-    <defaultCaseOwner>test-7rbqoswmr85b@example.com</defaultCaseOwner>
+    <defaultCaseOwner>test-i9exfvc1oe6y@example.com</defaultCaseOwner>
     <defaultCaseOwnerType>User</defaultCaseOwnerType>
-    <defaultCaseUser>test-7rbqoswmr85b@example.com</defaultCaseUser>
+    <defaultCaseUser>test-i9exfvc1oe6y@example.com</defaultCaseUser>
     <emailToCase>
         <enableEmailToCase>false</enableEmailToCase>
     </emailToCase>

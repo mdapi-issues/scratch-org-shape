@@ -15,7 +15,7 @@ jobs:
           node-version: 16
       - name: Install dependencies
         run: |
-          yarn global add sfdx-cli
+          yarn global add @salesforce/cli
       - name: Retrieve from Scratch Org
         env:
           SFDX_AUTH_URL_DEVHUB: ${{ secrets.SFDX_AUTH_URL_DEVHUB }}

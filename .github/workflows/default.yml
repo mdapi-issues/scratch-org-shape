@@ -20,7 +20,7 @@ jobs:
         env:
           SFDX_AUTH_URL_DEVHUB: ${{ secrets.SFDX_AUTH_URL_DEVHUB }}
         run: |
-          sfdx auth:sfdxurl:store -d -a devhub -f /dev/stdin <<< "${SFDX_AUTH_URL_DEVHUB}"
+          sfdx auth:sfdxurl:store -d -a devhub -f <(echo "${SFDX_AUTH_URL_DEVHUB}")
           sfdx force:org:create -f config/project-scratch-def.json -a scratch-org-shape -s
           rm -rf force-app/main
           sfdx force:source:manifest:create --fromorg scratch-org-shape

@@ -109,15 +109,6 @@
     </layoutSections>
     <quickActionList>
         <quickActionListItems>
-            <quickActionName>Task.UpdateStatus_2</quickActionName>
-        </quickActionListItems>
-        <quickActionListItems>
-            <quickActionName>Task.UpdatePriority_2</quickActionName>
-        </quickActionListItems>
-        <quickActionListItems>
-            <quickActionName>Task.EditDescription_1</quickActionName>
-        </quickActionListItems>
-        <quickActionListItems>
             <quickActionName>Task.EditDescription_3</quickActionName>
         </quickActionListItems>
         <quickActionListItems>
@@ -170,6 +161,15 @@
         </quickActionListItems>
         <quickActionListItems>
             <quickActionName>Task.Defer_2</quickActionName>
+        </quickActionListItems>
+        <quickActionListItems>
+            <quickActionName>Task.UpdateStatus_2</quickActionName>
+        </quickActionListItems>
+        <quickActionListItems>
+            <quickActionName>Task.UpdatePriority_2</quickActionName>
+        </quickActionListItems>
+        <quickActionListItems>
+            <quickActionName>Task.EditDescription_1</quickActionName>
         </quickActionListItems>
         <quickActionListItems>
             <quickActionName>Task.Defer_1</quickActionName>

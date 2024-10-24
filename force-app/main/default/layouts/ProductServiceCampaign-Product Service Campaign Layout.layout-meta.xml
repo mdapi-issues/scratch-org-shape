@@ -94,6 +94,7 @@
     <relatedLists>
         <fields>Name</fields>
         <fields>Asset</fields>
+        <fields>SerializedProduct</fields>
         <fields>Product2</fields>
         <fields>Status</fields>
         <relatedList>ProductServiceCampaignItems</relatedList>

@@ -7,15 +7,15 @@ jobs:
   default:
     runs-on: ubuntu-latest
     steps:
-      - uses: actions/checkout@v4
+      - uses: actions/checkout@v5
         with:
           fetch-depth: 0
-      - uses: actions/setup-node@v4
+      - uses: actions/setup-node@v5
         with:
-          node-version: 20
+          node-version: 22
       - name: Install dependencies
         run: |
-          npm install --global @salesforce/cli
+          npm install --ignore-scripts --global @salesforce/cli
       - name: Retrieve from Scratch Org
         env:
           SFDX_AUTH_URL_DEVHUB: ${{ secrets.SFDX_AUTH_URL_DEVHUB }}
@@ -26,7 +26,7 @@ jobs:
           sf project generate manifest --from-org scratch-org-shape
           sf project retrieve start --manifest package.xml
       - name: Create Pull Request
-        uses: stefanzweifel/git-auto-commit-action@v4
+        uses: stefanzweifel/git-auto-commit-action@v6
         with:
           file_pattern: force-app
           commit_message: "feat: retrieve Metadata from Scratch Org"

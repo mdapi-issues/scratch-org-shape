@@ -9,9 +9,9 @@
     <caseMergeInLightning>false</caseMergeInLightning>
     <closeCaseThroughStatusChange>false</closeCaseThroughStatusChange>
     <defaultCaseFeedLayoutOn>true</defaultCaseFeedLayoutOn>
-    <defaultCaseOwner>test-yopidtkuez9l@example.com</defaultCaseOwner>
+    <defaultCaseOwner>test-mevkgtabddej@example.com</defaultCaseOwner>
     <defaultCaseOwnerType>User</defaultCaseOwnerType>
-    <defaultCaseUser>test-yopidtkuez9l@example.com</defaultCaseUser>
+    <defaultCaseUser>test-mevkgtabddej@example.com</defaultCaseUser>
     <emailToCase>
         <enableEmailToCase>false</enableEmailToCase>
     </emailToCase>
@@ -27,10 +27,13 @@
     <enableSolutionShortSummary>true</enableSolutionShortSummary>
     <enableSuggestedSolutions>true</enableSuggestedSolutions>
     <escalateCaseBefore>false</escalateCaseBefore>
+    <hidePublicInCaseComment>false</hidePublicInCaseComment>
     <notifyContactOnCaseComment>false</notifyContactOnCaseComment>
     <notifyDefaultCaseOwner>false</notifyDefaultCaseOwner>
     <notifyOwnerOnCaseComment>false</notifyOwnerOnCaseComment>
     <notifyOwnerOnCaseOwnerChange>false</notifyOwnerOnCaseOwnerChange>
+    <rtaCaseComment>false</rtaCaseComment>
+    <rtaCaseDescription>false</rtaCaseDescription>
     <showEmailAttachmentsInCaseAttachmentsRL>true</showEmailAttachmentsInCaseAttachmentsRL>
     <useSystemEmailAddress>true</useSystemEmailAddress>
     <useSystemUserAsDefaultCaseUser>false</useSystemUserAsDefaultCaseUser>

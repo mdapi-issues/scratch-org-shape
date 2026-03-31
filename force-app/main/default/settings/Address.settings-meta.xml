@@ -710,9 +710,9 @@
             </states>
             <states>
                 <active>true</active>
-                <integrationValue>Yukon Territories</integrationValue>
+                <integrationValue>Yukon</integrationValue>
                 <isoCode>YT</isoCode>
-                <label>Yukon Territories</label>
+                <label>Yukon</label>
                 <standard>true</standard>
                 <visible>true</visible>
             </states>
@@ -3013,9 +3013,9 @@
             </states>
             <states>
                 <active>true</active>
-                <integrationValue>Akita</integrationValue>
+                <integrationValue>Aomori</integrationValue>
                 <isoCode>02</isoCode>
-                <label>Akita</label>
+                <label>Aomori</label>
                 <standard>true</standard>
                 <visible>true</visible>
             </states>
@@ -3037,9 +3037,9 @@
             </states>
             <states>
                 <active>true</active>
-                <integrationValue>Aichi</integrationValue>
+                <integrationValue>Akita</integrationValue>
                 <isoCode>05</isoCode>
-                <label>Aichi</label>
+                <label>Akita</label>
                 <standard>true</standard>
                 <visible>true</visible>
             </states>
@@ -3181,9 +3181,9 @@
             </states>
             <states>
                 <active>true</active>
-                <integrationValue>Aomori</integrationValue>
+                <integrationValue>Aichi</integrationValue>
                 <isoCode>23</isoCode>
-                <label>Aomori</label>
+                <label>Aichi</label>
                 <standard>true</standard>
                 <visible>true</visible>
             </states>

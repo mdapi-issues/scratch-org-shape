@@ -21,7 +21,7 @@
     <isIcorInstApiTrafficBlocked>false</isIcorInstApiTrafficBlocked>
     <isInstancedApiTrafficBlocked>true</isInstancedApiTrafficBlocked>
     <logRedirections>false</logRedirections>
-    <myDomainName>speed-drive-2993-dev-ed</myDomainName>
+    <myDomainName>nosoftware-customization-e6-dev-ed</myDomainName>
     <myDomainSuffix>MySalesforce</myDomainSuffix>
     <onboardCustomerSpecificSuffix>false</onboardCustomerSpecificSuffix>
     <redirectForceComSiteUrls>true</redirectForceComSiteUrls>

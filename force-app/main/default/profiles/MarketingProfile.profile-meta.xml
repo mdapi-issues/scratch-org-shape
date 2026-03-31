@@ -81,6 +81,11 @@
         <visible>false</visible>
     </applicationVisibilities>
     <applicationVisibilities>
+        <application>standard__Shield</application>
+        <default>false</default>
+        <visible>true</visible>
+    </applicationVisibilities>
+    <applicationVisibilities>
         <application>standard__Sites</application>
         <default>false</default>
         <visible>true</visible>
@@ -1923,6 +1928,21 @@
     </fieldPermissions>
     <fieldPermissions>
         <editable>true</editable>
+        <field>CreditMemo.FuncCrcyCnvTotAmtWithTax</field>
+        <readable>true</readable>
+    </fieldPermissions>
+    <fieldPermissions>
+        <editable>true</editable>
+        <field>CreditMemo.FunctionalCurrencyCvsnDate</field>
+        <readable>true</readable>
+    </fieldPermissions>
+    <fieldPermissions>
+        <editable>true</editable>
+        <field>CreditMemo.FunctionalCurrencyCvsnRate</field>
+        <readable>true</readable>
+    </fieldPermissions>
+    <fieldPermissions>
+        <editable>true</editable>
         <field>CreditMemoLine.CorpCurrencyCnvChargeAmt</field>
         <readable>true</readable>
     </fieldPermissions>
@@ -1939,6 +1959,26 @@
     <fieldPermissions>
         <editable>true</editable>
         <field>CreditMemoLine.CorporateCurrencyCvsnRate</field>
+        <readable>true</readable>
+    </fieldPermissions>
+    <fieldPermissions>
+        <editable>true</editable>
+        <field>CreditMemoLine.FuncCrcyCnvTotalTaxAmt</field>
+        <readable>true</readable>
+    </fieldPermissions>
+    <fieldPermissions>
+        <editable>true</editable>
+        <field>CreditMemoLine.FuncCurrencyCnvChargeAmt</field>
+        <readable>true</readable>
+    </fieldPermissions>
+    <fieldPermissions>
+        <editable>true</editable>
+        <field>CreditMemoLine.FunctionalCurrencyCvsnDate</field>
+        <readable>true</readable>
+    </fieldPermissions>
+    <fieldPermissions>
+        <editable>true</editable>
+        <field>CreditMemoLine.FunctionalCurrencyCvsnRate</field>
         <readable>true</readable>
     </fieldPermissions>
     <fieldPermissions>
@@ -2323,6 +2363,21 @@
     </fieldPermissions>
     <fieldPermissions>
         <editable>true</editable>
+        <field>Invoice.FuncCrcyCnvTotAmtWithTax</field>
+        <readable>true</readable>
+    </fieldPermissions>
+    <fieldPermissions>
+        <editable>true</editable>
+        <field>Invoice.FunctionalCurrencyCvsnDate</field>
+        <readable>true</readable>
+    </fieldPermissions>
+    <fieldPermissions>
+        <editable>true</editable>
+        <field>Invoice.FunctionalCurrencyCvsnRate</field>
+        <readable>true</readable>
+    </fieldPermissions>
+    <fieldPermissions>
+        <editable>true</editable>
         <field>InvoiceLine.CorpCurrencyCnvChargeAmt</field>
         <readable>true</readable>
     </fieldPermissions>
@@ -2339,6 +2394,26 @@
     <fieldPermissions>
         <editable>true</editable>
         <field>InvoiceLine.CorporateCurrencyCvsnRate</field>
+        <readable>true</readable>
+    </fieldPermissions>
+    <fieldPermissions>
+        <editable>true</editable>
+        <field>InvoiceLine.FuncCrcyCnvTotalTaxAmt</field>
+        <readable>true</readable>
+    </fieldPermissions>
+    <fieldPermissions>
+        <editable>true</editable>
+        <field>InvoiceLine.FuncCurrencyCnvChargeAmt</field>
+        <readable>true</readable>
+    </fieldPermissions>
+    <fieldPermissions>
+        <editable>true</editable>
+        <field>InvoiceLine.FunctionalCurrencyCvsnDate</field>
+        <readable>true</readable>
+    </fieldPermissions>
+    <fieldPermissions>
+        <editable>true</editable>
+        <field>InvoiceLine.FunctionalCurrencyCvsnRate</field>
         <readable>true</readable>
     </fieldPermissions>
     <fieldPermissions>
@@ -2679,6 +2754,11 @@
     <fieldPermissions>
         <editable>true</editable>
         <field>MessagingEndUser.LeadId</field>
+        <readable>true</readable>
+    </fieldPermissions>
+    <fieldPermissions>
+        <editable>true</editable>
+        <field>MessagingSession.CampaignId</field>
         <readable>true</readable>
     </fieldPermissions>
     <fieldPermissions>
@@ -5080,6 +5160,9 @@
         <layout>TravelMode-Travel Mode Layout</layout>
     </layoutAssignments>
     <layoutAssignments>
+        <layout>UniversalAnomalyEventStore-Universal Anomaly Event Store Layout</layout>
+    </layoutAssignments>
+    <layoutAssignments>
         <layout>User-User Layout</layout>
     </layoutAssignments>
     <layoutAssignments>
@@ -6188,6 +6271,10 @@
         <visibility>DefaultOn</visibility>
     </tabVisibilities>
     <tabVisibilities>
+        <tab>standard-DevopsActivityLog</tab>
+        <visibility>DefaultOn</visibility>
+    </tabVisibilities>
+    <tabVisibilities>
         <tab>standard-DevopsEnvironment</tab>
         <visibility>DefaultOn</visibility>
     </tabVisibilities>
@@ -6221,6 +6308,10 @@
     </tabVisibilities>
     <tabVisibilities>
         <tab>standard-ExpenseReport</tab>
+        <visibility>DefaultOn</visibility>
+    </tabVisibilities>
+    <tabVisibilities>
+        <tab>standard-ExpenseReportEntry</tab>
         <visibility>DefaultOn</visibility>
     </tabVisibilities>
     <tabVisibilities>
@@ -6532,6 +6623,10 @@
         <visibility>DefaultOn</visibility>
     </tabVisibilities>
     <tabVisibilities>
+        <tab>standard-UserDevopsPreference</tab>
+        <visibility>DefaultOn</visibility>
+    </tabVisibilities>
+    <tabVisibilities>
         <tab>standard-UserProvisioningRequest</tab>
         <visibility>Hidden</visibility>
     </tabVisibilities>
@@ -6791,6 +6886,10 @@
     <userPermissions>
         <enabled>true</enabled>
         <name>ViewHelpLink</name>
+    </userPermissions>
+    <userPermissions>
+        <enabled>true</enabled>
+        <name>ViewPublicCapstoneFolders</name>
     </userPermissions>
     <userPermissions>
         <enabled>true</enabled>

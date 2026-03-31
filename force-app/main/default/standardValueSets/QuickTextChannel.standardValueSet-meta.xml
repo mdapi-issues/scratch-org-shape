@@ -32,6 +32,11 @@
         <label>Task</label>
     </standardValue>
     <standardValue>
+        <fullName>CaseComment</fullName>
+        <default>false</default>
+        <label>CaseComment</label>
+    </standardValue>
+    <standardValue>
         <fullName>Messaging</fullName>
         <default>false</default>
         <label>Messaging</label>
